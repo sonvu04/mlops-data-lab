@@ -1,0 +1,5 @@
+outs:
+- md5: 21a1749bc760e771c7a011b17e17d17b
+  size: 8188
+  hash: md5
+  path: tips.csv
