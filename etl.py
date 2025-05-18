@@ -8,7 +8,7 @@ def clean_data(df):
 
 def feature_engineering(df):
     # Add a feature: tip percentage
-    df['tip_pct'] = df['tip'] / df['total_bill']
+    df['bill_with_tip'] = df['total_bill'] + df['tip']
     return df
 
 if __name__ == "__main__":
